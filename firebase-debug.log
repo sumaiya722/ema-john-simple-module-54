@@ -1,0 +1,50 @@
+[debug] [2021-10-15T17:33:36.553Z] ----------------------------------------------------------------------
+[debug] [2021-10-15T17:33:36.555Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-10-15T17:33:36.555Z] CLI Version:   9.20.0
+[debug] [2021-10-15T17:33:36.555Z] Platform:      win32
+[debug] [2021-10-15T17:33:36.555Z] Node Version:  v14.17.1
+[debug] [2021-10-15T17:33:36.556Z] Time:          Fri Oct 15 2021 23:33:36 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-15T17:33:36.556Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-15T17:33:36.562Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-15T17:33:36.562Z] > authorizing via signed-in user (2021381@iub.edu.bd)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\project\ema-john-simple-module-54
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-10-15T19:48:36.355Z] > refreshing access token with scopes: []
+[debug] [2021-10-15T19:48:36.356Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-15T19:48:36.910Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 15 Oct 2021 19:48:37 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-15T19:48:36.967Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-10-15T19:48:37.927Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-10-15T19:48:37.927Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project ema-john-simple-79c40 (ema-john-simple) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at C:\project\ema-john-simple-module-54 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=917223921&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
